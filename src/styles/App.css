@@ -1,0 +1,88 @@
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.app-wrap{
+  width: 35%;
+  margin: auto;
+  border: 1px solid #ccc;
+}
+.contact-wrap {
+  padding: 10px 20px;
+}
+
+header {
+  background-color: lightseagreen;
+  color: white;
+  line-height: 50px;
+  padding-left: 15px;
+  border-bottom: 2px solid seagreen;
+}
+
+.person {
+  border-bottom: 1px solid #ccc;
+  line-height: 30px;
+  padding-left: 15px;
+  text-transform: capitalize;
+}
+
+a {
+  text-decoration-line: none;
+  color: green;
+}
+
+.person :hover {
+  color: lightseagreen;
+}
+
+.tiny {
+  margin: 0;
+  margin-right: 10px;
+}
+
+.photo {
+  background-color: lightseagreen;
+  height: 200px;
+  text-align: center;
+}
+
+img {
+  border-radius: 100px;
+  margin: 30px;
+}
+
+.button {
+  position: absolute;
+}
+
+.name, .location {
+  display: flex;
+  text-transform: capitalize;
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0px 15px 15px;
+}
+
+.last, .state {
+  padding-left: 5px;
+}
+
+.email, .cell, .location {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0px 15px 15px;
+}
+
+.cell, .location {
+  text-transform: capitalize;
+}
+
+.fa {
+  padding-right: 10px;
+  color: black;
+}
+
+.fa fa-arrow-left {
+  padding: 10px;
+}
